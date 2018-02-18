@@ -5,8 +5,7 @@ contract RaceDefinitions {
     event RaceEnd(address winner);
     event UserPutEntryFee(address user, uint currentPot);
 
-	event WinnerTookItAll(string message);
+    event WinnerTookItAll(string message);
     event WinnerFailedToTakeWin(string message);
-    event SomeGuyTriedToTakeTheWinnings(string message, address someGuy);
-    event NobodyPlayedWithdrewInitialAmount(string message);
+    event RaceFailed(string message);
 }
